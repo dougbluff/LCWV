@@ -1,0 +1,30 @@
+body.post-type-archive-winemaker,
+body.single-winemaker {
+    h1.entry-title {
+        margin-left: 7%;
+
+        @media screen and (max-width: $mobile) {
+            text-align: center;
+            font-size: 20px;
+            margin-left: 0%;
+            padding-right: 0;
+
+            a {
+                text-align: center;
+            }
+        }
+    }
+
+    .entry-content {
+        @media screen and (min-width: $mobile) and (max-width: $tablet) {
+            min-height: 450px;
+        }
+    }
+
+    ul {
+        @media screen and (max-width: $mobile) {
+            margin: 20px 20px;
+            text-align: center;
+        }
+    }
+}

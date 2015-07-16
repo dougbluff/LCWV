@@ -1,0 +1,173 @@
+body.single-wineries {
+    .entry-content {
+        margin: 0;
+        h2.entry-title {
+            text-align: center;
+        }
+        .col-md-9 {
+            .my_logo {
+                text-align: center;
+                padding-top: 20px;
+                img {
+                    max-width: 40%;
+                }
+            }
+        }
+        .col-md-3 {
+            .winery-meta {
+                line-height: 1.5;
+                margin: 10px 0;
+                color: #572700;
+                font-weight: 400;
+                p {
+                    font-size: 12px;
+                    margin: 0 20px 10px 0;
+                }
+                a {
+                    color: $orange;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+                span {
+                    font-weight: bold;
+                    width: 100%;
+                    display: block;
+                }
+            }
+            h2 {
+                font-size: 1.1em;
+                font-weight: 400;
+            }
+            .moduletable {
+                div#jnews_module2, h3 {
+                    display: none;
+                }
+            }
+            div#rightCol {
+                padding: 20px 0 10px 12%;
+                border-bottom: solid 1px #E7E7E7;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+body.page.page-template-page-maps {
+    div#gmw-map-wrapper-1 {
+        @media screen and (max-width: $mobile) {
+            display: none !important;
+        }
+    }
+    .gmw-results-count,
+    .gmw-pt-pagination-wrapper.gmw-pt-top-pagination-wrapper,
+    span.radius-dis {
+        display: none;
+    }
+    .template-content-wrapper {
+        .featured-image {
+            max-height: 150px;
+            img {
+                width: 45%;
+                padding-bottom: 50px;
+            }
+        }
+    }
+    .wppl-single-result {
+        display: block;
+        padding: 0px 3px 25% 10%;
+        @media screen and (max-width: $mobile) {
+            padding: 15px 15px 0 15px;
+            margin-top: 40px;
+            border-bottom: none;
+            border-top: 1px solid #eee;
+        }
+        @media screen and (max-width: $tablet) {
+            padding: 15px 15px 0 15px;
+            margin-top: 40px;
+            border-bottom: none;
+            border-top: 1px solid #eee;
+        }
+        ul.gmw-additional-info-wrapper {
+            list-style: none;
+            -webkit-margin-before: 0px;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-start: 0px;
+            margin: 0;
+            span.label {
+                color: #000;
+                font-size: 14px;
+                padding: 0;
+            }
+        }
+        h2 {
+            font-size: 1.8em;
+            @media screen and (max-width: $mobile) {
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+        .wppl-thumb {
+            border: 1px solid #DDD;
+            padding: 1px;
+            margin-right: 0px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            img {
+                @media screen and (max-width: $mobile) {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+        .clear {
+            display: none;
+        }
+        .wppl-info {
+            display: block;
+            width: 70%;
+            line-height: 17px;
+            margin-top: 0;
+            float: right;
+            @media screen and (max-width: $mobile) {
+                width: 100%;
+                text-align: center;
+            }
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+            }
+            .wppl-info-right {
+                float: right;
+                width: 100%;
+                a.gmw-get-directions.get-directions.pt {
+                    padding: 10px 20px;
+                    margin-top: 20px;
+                    display: block;
+                    border: solid 1px #f99f1c;
+                    width: 135px;
+                    border-radius: 4px;
+                    background-color: #f99f1c;
+                    color: #fff;
+                    @media screen and (max-width: $mobile) {
+                        width: 100%;
+                        text-align: center;
+                        margin: 25px 0;
+                    }
+                }
+            }
+            .wppl-info-left {
+                float: right;
+                width: 100%;
+                border-right: none;
+                margin-right: 0;
+                li.phone {
+                    margin-bottom: 10px;
+                }
+            }
+            h3 {
+                margin-top: 15px;
+            }
+        }
+    }
+}

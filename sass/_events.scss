@@ -1,0 +1,91 @@
+.events {
+    .col-md-12.page_body {
+        @media screen and (max-width: $tablet) {
+            display: inline-block;
+        }
+
+        h2 {
+            @media screen and (max-width: $mobile) {
+                text-align: center;
+                font-size: 19px;
+            }
+        }
+    }
+
+    .col-md-4 {
+        margin-bottom: 50px;
+        padding-left: 0;
+        padding-right: 5px;
+
+        @media screen and (max-width: $tablet) {
+            padding-right: 0;
+            text-align: center;
+        }
+
+        span.col-md-6.img {
+            padding-left: 0px;
+            margin-right: -20px;
+            padding-right: 35px;
+
+            @media screen and (min-width: $mobile) and (max-width: $tablet) {
+                padding-right: 0px;
+                padding-bottom: 20px;
+                display: block;
+                margin-right: 0px;
+            }
+        }
+
+        span.col-md-6.title {
+            padding-left: 0px;
+            padding-right: 0;
+
+            h3 {
+                margin-top: 0px;
+
+                @media screen and (max-width: $mobile) {
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        span.col-md-6.ex {
+            padding-left: 0px;
+            padding-right: 0;
+            line-height: 20px;
+            font-size: 12px;
+
+            @media screen and (min-width: $mobile) and (max-width: $tablet) {
+                word-wrap: break-word;
+                display: block;
+                max-width: 60%;
+                margin: 0 auto;
+            }
+        }
+
+        span.col-md-6.date {
+            padding-left: 0px;
+            padding-right: 0;
+            line-height: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: rgb(87, 39, 0);
+            margin-bottom: 10px;
+
+            @media screen and (min-width: $mobile) and (max-width: $tablet) {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
+
+body.single.single-events {
+    div#primary .col-md-12.page_body {
+        display: none;
+    }
+
+    .event_slider {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
