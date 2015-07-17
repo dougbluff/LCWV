@@ -157,9 +157,11 @@ div#content {
 .gform_wrapper textarea.medium {
     width: 100% !important;
     max-width: 100% !important;
+
     .ginput_complex.ginput_container {
         overflow: visible !important;
     }
+
     span#input_1_1_3_container {
         label {
             display: none;

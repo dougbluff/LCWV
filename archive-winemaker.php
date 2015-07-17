@@ -9,14 +9,19 @@
 
 get_header(); ?>
 <?php echo do_shortcode('[rev_slider rand_slide]'); ?>
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-<header class="entry-header">
-				<?php the_breadcrumb(); ?>
-			</header><!-- .page-header -->
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		<header class="entry-header">
+			<?php the_breadcrumb(); ?>
+		</header><!-- .page-header -->
+
+
 		<?php if ( have_posts() ) : ?>
+			<?php $posts = query_posts($query_string .
+			'&orderby=title&order=asc&posts_per_page=-1'); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
+				
 				<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
 
 			<?php endwhile; ?>
@@ -29,8 +34,8 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</main><!-- #main -->
+</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -38,7 +38,9 @@
 		</div>
 		<div class="col-xs-12 col-sm-3 foot-4">
 		<img src="<?php get_site_url(); ?>/wp-content/uploads/2015/06/logo-vert.png"/>
-			<p>Socialize: <a href="https://twitter.com/LakeChelanAVA" target="_blank">Twitter</a> | <a href="https://www.facebook.com/LakeChelanWineValley" target="_blank">Facebook</a></p>
+			<p>Socialize: <a href="https://twitter.com/LakeChelanAVA" target="_blank">Twitter</a> | <a href="https://www.facebook.com/LakeChelanWineValley" target="_blank">Facebook</a> |
+<a href=https://www.pinterest.com/lakechelanwine/ target="_blank">Pinterest</a> |
+<a href="https://instagram.com/lakechelanwinevalley/" target="_blank">Instagram</a></p>
 			<p><a href="mailto:lakechelanwinealliance@outlook.com">lakechelanwinealliance@outlook.com</a></p>
 			<p>PO Box 777, Chelan, WA 98816</p>
 		</div>
